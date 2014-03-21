@@ -1,0 +1,27 @@
+
+
+* {
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+}
+
+
+aside#buffer{
+	float:left;
+	width:23%;
+}
+
+div#fork-me{
+	float:right;
+	width:75%;
+}
+
+
+div#fork-me:after{
+	display:block;
+	clear:both;
+	height:0;
+	content:".";
+	visibility:hidden;
+}
+
